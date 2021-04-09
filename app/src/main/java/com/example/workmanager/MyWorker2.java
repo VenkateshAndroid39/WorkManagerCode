@@ -17,7 +17,7 @@ public class MyWorker2 extends Worker {
     @NonNull
     @Override
     public Result doWork() {
-        Log.e("Result","Welcome it s working machii 2");
+        Log.e("Result","Welcome its working  2");
         return Result.success();
     }
 }

@@ -19,25 +19,8 @@ public class MyWorker extends Worker {
     @NonNull
     @Override
     public Result doWork() {
-    //    Log.e("Result","Welcome it s working machii a");
-   //     Log.d("status****","working");
-        Log.d("status","Running**");
-      //  mHandler.sendEmptyMessageDelayed(5, 2000);
+        Log.d("Result","Welcome its working  1 or 3");
         return Result.success();
     }
 
-//    private Handler mHandler = new Handler()
-//    {
-//        @Override
-//        public void handleMessage( final Message msg )
-//        {
-//            switch( msg.what )
-//            {
-//                case 5:
-//                    Log.d("status","Running**");
-//                    mHandler.sendEmptyMessageDelayed(5, 3000);
-//                    break;
-//            }
-//        }
-//    };
 }
